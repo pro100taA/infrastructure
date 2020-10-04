@@ -1,0 +1,4 @@
+({
+    access: '*',
+    handle: application.introspect
+})

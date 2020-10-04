@@ -1,0 +1,23 @@
+{
+  "extends": "metarhia",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "plugins": [
+    "impress"
+  ],
+  "rules": {
+    "indent": "off",
+    "max-len": ["error", { "code": 120 }],
+    "template-curly-spacing": ["error", "always"],
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "handle-callback-err": "off",
+    "consistent-return": "off"
+  }
+}
