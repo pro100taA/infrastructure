@@ -1,5 +1,3 @@
-'use strict';
-
 class Post {
     constructor(id, title, text, categories) {
         this.id = id;
@@ -8,5 +6,3 @@ class Post {
         this.categories = categories;
     }
 }
-
-module.exports = Post;
