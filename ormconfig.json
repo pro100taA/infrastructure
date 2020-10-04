@@ -8,7 +8,7 @@
   "password": "secret",
   "database": "nodejs",
 
-  "synchronize": true,
+  "synchronize": false,
   "logging": false,
 
   "entities": [
