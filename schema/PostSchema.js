@@ -1,11 +1,9 @@
 'use strict';
 
-const { EntitySchema } = require('typeorm');
-const Post = require('../src/domain/post/entity/Post');
+const { EntitySchema } = require("typeorm");
 
 module.exports = new EntitySchema({
     name: 'Post',
-    target: Post,
     columns: {
         id: {
             primary: true,

@@ -1,8 +1,8 @@
 ({
-    host: 'erp.loc',
+    host: 'localhost',
     balancer: 8000,
     protocol: 'http',
-    ports: [8004],
+    ports: [8001],
     timeout: 5000,
     concurrency: 1000,
     queue: {

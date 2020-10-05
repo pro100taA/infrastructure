@@ -8,12 +8,11 @@
   "password": "secret",
   "database": "nodejs",
 
-  "synchronize": false,
+  "synchronize": true,
   "logging": false,
 
   "entities": [
-    "src/domain/*/entity/model/*.js",
-    "src/domain/*/entity/schema/*.js"
+    "schema/*.js"
   ],
 
   "subscribers": [

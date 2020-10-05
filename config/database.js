@@ -8,24 +8,9 @@
     password: 'secret',
     database: 'nodejs',
 
-    synchronize: false,
-    logging: false,
+    synchronize: true,
 
     entities: [
-        'src/domain/*/entity/model/*.js',
-        'src/domain/*/entity/schema/*.js'
-    ],
-
-    subscribers: [
-        'src/subscriber/*.js'
-    ],
-
-    migrations: [
-        'src/migration/*.js'
-    ],
-
-    cli: {
-        migrationsDir: 'src/migration',
-        subscribersDir: 'src/subscriber'
-    }
+        '../schema/PostSchema.js'
+    ]
 });
