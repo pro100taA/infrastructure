@@ -1,6 +1,6 @@
 {
   "name": "infrastructure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Artem Danilov <prosta4ock@gmail.com>",
   "description": "Server for Node.js",
   "license": "MIT",
@@ -37,18 +37,36 @@
     "node": ">=12.9.0"
   },
   "dependencies": {
+    "@google-cloud/storage": "^5.3.0",
     "@metarhia/common": "^2.2.0",
     "@metarhia/config": "^2.0.0-alpha.0",
+    "aws-sdk": "^2.776.0",
+    "azure-storage": "^2.10.3",
+    "bigchaindb-driver": "^4.1.2",
+    "cli-progress": "^3.8.2",
+    "faker": "^5.1.0",
+    "filereader": "^0.10.3",
     "metalog": "^2.2.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.13",
+    "nodemailer-mailgun-transport": "^2.0.1",
     "pg": "^8.3.3",
+    "ramda": "^0.27.1",
+    "stripe": "^8.123.0",
+    "twig": "^1.15.2",
+    "twilio": "^3.53.0",
     "typeorm": "^0.2.28",
+    "uuid": "^8.3.1",
+    "vm2": "^3.9.2",
     "ws": "^7.3.1"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
     "eslint-config-metarhia": "^7.0.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-impress": "^2.3.1",
+    "eslint-plugin-security": "^1.4.0",
     "metatests": "^0.7.2"
   }
 }

@@ -1,8 +1,8 @@
 ({
-    host: 'localhost',
-    balancer: 8000,
+    host: '0.0.0.0',
+    balancer: false,
     protocol: 'http',
-    ports: [8001],
+    ports: [7000],
     timeout: 5000,
     concurrency: 1000,
     queue: {

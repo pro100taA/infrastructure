@@ -10,5 +10,5 @@
     perUserLimit: 5,
     regenerate: 1 * 60 * 60 * 1000,
     expire: 2 * 60 * 60 * 1000,
-    // domain: 'localhost' // domain for cookie
+    domain: 'localhost', // domain for cookie
 });

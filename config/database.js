@@ -1,16 +1,14 @@
 ({
     name: 'default',
     type: 'postgres',
-    host: 'localhost',
+    host: 'postgres',
     port: 5432,
 
     username: 'default',
     password: 'secret',
-    database: 'nodejs',
+    database: 'postgres',
 
-    synchronize: true,
+    synchronize: false,
 
-    entities: [
-        '../schema/PostSchema.js'
-    ]
+    entities: [ 'schema/*.js' ]
 });
